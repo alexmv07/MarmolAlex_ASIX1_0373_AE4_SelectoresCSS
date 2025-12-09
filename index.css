@@ -3,15 +3,25 @@
   font-weight: 400;
   font-style: normal;
 }
-/* Regla 2 body */
+/* Regla body */
 body {
   margin: 0;
   padding: 0 20%;
 }
 
-/* Regla 3 h1 */
+/* Regla h1 */
 h1 {
   text-decoration: underline;
   color: darkcyan;
   text-align: center;
+}
+/* clase selector */
+.selector {
+  color: lightcyan;
+}
+/* Regla 5 clase selectors */
+.selectors {
+  padding: 5%;
+  border: solid darkcyan 1px;
+  border-radius: 5px;
 }
