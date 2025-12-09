@@ -30,10 +30,20 @@ h1 {
   color: #fafad2;
 }
 
-/* Regla 7 h2 con clase selector o id universal */
+/* Regla h2 con id universal */
 h2.selector,
 h2#universal {
   background-color: #008b8b;
   padding: 1%;
   border-radius: 5px;
+}
+/* Regla span */
+span {
+  font-weight: 900;
+  background-color: black;
+  color: white;
+}
+/* Regla hijo de li */
+li > a {
+  text-decoration: none;
 }
