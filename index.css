@@ -1,16 +1,17 @@
-
+/* Utilizar el selector universal * para cambiar el tipo de fuente de todo el documento */
 * {
   font-family: "Aldrich", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-/* Regla body */
+
+/* El body tendra margen 0 y relleno de 20% únicamente a la derecha y izquierda */
 body {
   margin: 0;
   padding: 0 20%;
 }
 
-/* Regla h1 */
+/* Los elementos h1 estaran subrayados con text-decoration: underline de color darkcyan y alineados en el centro */
 h1 {
   text-decoration: underline;
   color: darkcyan;
