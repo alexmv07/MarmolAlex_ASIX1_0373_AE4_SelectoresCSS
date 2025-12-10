@@ -42,27 +42,32 @@ h2#universal {
   padding: 1%;
   border-radius: 5px;
 }
-/* Regla span */
+
+/* Los elementos span tendran un font-weight de 900 y de color de fondo sera negro y el color del texto sera blanco */
 span {
   font-weight: 900;
   background-color: black;
   color: white;
 }
-/* Regla hijo de li */
+
+/* Los elementos a que sean hijos directos de algun li tendran un text-decoration: none */
 li > a {
   text-decoration: none;
 }
-/* Regla h3 */
+
+/* Los elementos h3 tendran de color de fondo rgba(0, 139, 139, 0.529) y un relleno de 0.5px y las esquinas redondeadas con un tamaño de 5px */
 h3 {
   background-color: rgba(0, 139, 139, 0.529);
   padding: 0.5px;
   border-radius: 5px;
 }
-/* Regla 11 div descendiente de gallery */
+
+/* Los elementos div que sean descendientes de un elemento con id gallery tendran un ancho de 100% */
 #gallery div {
   width: 100%;
 }
-/* Regla 12 img */
+
+/* Los elementos img tendran un ancho de 100% un border solid darkcyan de un 1px y las esquinas redondeadas con un ancho de 5px */
 img {
   width: 100%;
   border: solid darkcyan 1px;
