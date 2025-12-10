@@ -17,22 +17,25 @@ h1 {
   color: darkcyan;
   text-align: center;
 }
-/* clase selector */
+
+/* Los elementos con clase selector tendran el color lightcyan */
 .selector {
   color: #e0ffff;
 }
-/* Regla 5 clase selectors */
+
+/* Los elementos con clase selectors tendrán un relleno de 5% un border solid darkcyan 1px y los bordes redondeados con un tamaño de 5px */
 .selectors {
   padding: 5%;
   border: solid rgb(0, 139, 139) 1px;
   border-radius: 5px;
 }
-/* Regla 6 id universal */
+
+/* Los elementos con identificador id universal tendran el color lightgoldenrodyellow */
 #universal {
   color: #fafad2;
 }
 
-/* Regla h2 con id universal */
+/* Los elementos con h2 y con clase selector y los elementos h2 con id universal tendran de color de fondo darkcyan y un relleno de 1% y las esquinas redondeadas con un tamaño de 5px */
 h2.selector,
 h2#universal {
   background-color: rgb(0, 139, 139);
